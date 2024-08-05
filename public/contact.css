@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-/*     box-sizing: border-box; */
+    box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     height: auto;
 }
@@ -155,17 +155,7 @@ footer {
 
 @media (max-width : 991px){
     
-.contact{
-    position: relative;
-    min-height: 100vh;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url("/static/abstract-textured-backgound.jpg");
-    background-size: cover;
-}
+
     .contact {
         padding: 50px;
          background-color:  #bfa9c5;

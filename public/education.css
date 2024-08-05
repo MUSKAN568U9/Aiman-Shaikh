@@ -20,13 +20,13 @@ body{
 }
 
 footer {
-    background-color:#333; /* Light grey background */
+    background-color:white; /* Light grey background */
     text-align: center;        /* Center align text */
     padding: 10px;            /* Padding around the text */
     position: relative;       /* Position relative for placement */
     bottom: 0;                /* Align to bottom of the page */
     width: 100%;   
-    color: white;           /* Full width of the page */
+    color: black;           /* Full width of the page */
 }
 
 
@@ -40,7 +40,7 @@ footer {
 }
 main.row{
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr ;
  
 }
 

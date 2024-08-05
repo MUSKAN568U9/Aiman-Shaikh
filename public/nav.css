@@ -23,7 +23,7 @@ nav{
     }
 .navbar .nav-link{
     font-size: 16px;
-    margin-left: 30px;
+    margin-left: 50%;
     position: relative;
     color: white;
     font-weight: 600;
@@ -89,24 +89,6 @@ transform-origin: center;
     color: black;
 }
 
-
-/* .navbar #toggle-menu:checked+label.toggle-btn .bar:nth-child(2){
-transform: translateX(50px);
-opacity: 0;
-
-
-}
-.navbar #toggle-menu:checked+label.toggle-btn .bar:nth-child(1){
-    transform: translateY(12px) rotate(45deg);
-    opacity: 0;
-    
-    }
-    
-.navbar #toggle-menu:checked+label.toggle-btn .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-        opacity: 0;
-        
-        } */
 
 
 @media screen and (max-width : 650px){

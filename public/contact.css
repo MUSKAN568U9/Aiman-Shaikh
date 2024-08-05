@@ -168,6 +168,7 @@ footer {
 }
     .contact {
         padding: 50px;
+         background-color:  #bfa9c5;
     }
     .container {
         flex-direction: column;

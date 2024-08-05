@@ -40,8 +40,8 @@ footer {
 }
 main.row{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
- 
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
 }
 
 .col header.title{
@@ -52,7 +52,7 @@ main.row{
 
 
 .col .contents{
-   
+    padding: 0px 30px;
     border-left: 2px solid #bababa;
 }
 
@@ -105,13 +105,14 @@ main.row{
 
 @media(max-width : 768px){
     main.row{
-        grid-template-columns: 1fr;
-
-    }
+        grid-template-columns: 1fr; }
     footer{
-        width:100%}
+        width: 100%;  
+    }
+   
 
     .row .col:nth-child(2){
         margin-top: 30px;
     }
+}
 }

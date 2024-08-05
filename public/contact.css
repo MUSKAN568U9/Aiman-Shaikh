@@ -14,8 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("/static/abstract-textured-backgound.jpg");
-    background-size: cover;
+  background-color:  #bfa9c5;
 }
 footer {
   
@@ -155,6 +154,18 @@ footer {
 
 
 @media (max-width : 991px){
+    
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("/static/abstract-textured-backgound.jpg");
+    background-size: cover;
+}
     .contact {
         padding: 50px;
     }

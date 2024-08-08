@@ -21,7 +21,29 @@
                 <div class="content">
                     <p class="subtitle">HELLO!</p>
                     <h1 class="title">
-                        I'm <span>Aiman<br></span>a Software Developer
+                          <div class="container">
+                            I'm <span>Aiman<br></span>
+                            <span class="text sec-text">a Software Developer </span>
+                        </div>
+                       
+                       <script>
+                      const text = document.querySelector(".sec-text");
+
+                        const textLoad = () => {
+                            setTimeout(() =>{
+                                text.textContent = "an Engineer";
+                            }, 0);
+                            setTimeout(() =>{
+                                text.textContent = "a Software Developer";
+                            }, 4000);
+                            setTimeout(() =>{
+                                text.textContent = "a Tutor";
+                            }, 8000);
+                        }
+
+                        textLoad();
+                        setInterval(textLoad, 12000)
+                       </script>
                     </h1>
                    <!-- <p class="description">
                         Welcome to my portfolio! I'm Aiman, a skilled and creative software developer. I am graduated from NED University in 2023 with a degree in Computer Systems Engineering. Now, I work as a remote software developer and also teach as a part-time job. I really enjoy doing both coding and teaching.

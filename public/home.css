@@ -115,6 +115,7 @@ overflow: hidden;
 }
 
 .action-btns button{
+      margin-left: 15px;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 2px;

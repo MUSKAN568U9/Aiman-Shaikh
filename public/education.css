@@ -10,9 +10,9 @@ body{
     width: 100%;
     min-height: 100vh;
     background-color: #fafafa;
-    display: flex;
+/*     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;  */
     /* background-image: url('https://img.freepik.com/premium-photo/background-lilac-backgrounds-outdoors-texture_53876-247339.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722470400&semt=ais_hybrid');
     background-repeat: no-repeat;
     background-attachment: fixed;
